@@ -1,0 +1,14 @@
+show_magicians = ['liuqian', 'dawang', 'qianqian']
+
+
+def show_magician():
+    print(show_magicians[:])
+
+
+show_magician()
+
+
+def make_great():
+    while names:
+        "The great " + names.pop(show_magicians)
+        great_magicians.append(names.pop(show_magicians))
